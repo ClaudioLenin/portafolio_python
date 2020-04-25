@@ -12,14 +12,13 @@ def main():
     
     while i <= int(cantidad):
         numero = int(input('Ingrese {}º número: '.format(str(i))))
-        numero = int(numero)
-        numero_digitos = cantidad_digitos(int(numero))
+        numero_digitos = cantidad_digitos(numero)
         sumador_posiciones_pares = 0
         bandera = True #Condición de salida de if
         while numero != 0: #Condicion de parada del ciclo while
-            digito = int(numero) // 1 % 10 #Obtengo el ultimo digito del numero
+            digito = numero // 1 % 10 #Obtengo el ultimo digito del numero
             digito = int(digito) #Transformo el digito obtenido en entero
-            numero = int(numero) / 10 #Quito el último digito del número ingresado
+            numero = numero / 10 #Quito el último digito del número ingresado
             numero = int(numero) #Transformo el número obtenido en entero
             
             if bandera: #Primera asignacion de digito menor
