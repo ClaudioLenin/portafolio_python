@@ -20,7 +20,7 @@ miCursor = miConexion.cursor()
 variosProductos = [
             ("Camiseta",10,"Deportes"),
             ("Jarrón",90,"Cerámica"),
-            ("Camión",20,"Juguetería")
+            ("Camión",20,"Juguetería"),
             ("Pantalón",20,"Jersy")
         ]
 #miCursor.executemany("INSERT INTO PRODUCTOS VALUES(?,?,?)",variosProductos) #Forma 2 de ingresar varios registros
