@@ -74,7 +74,7 @@ Y_pred = bar.predict(X_test)
 X_grid = np.arange(min(X_test),max(X_test),0.1) #Para espaciar los datos en 0.1
 X_grid = X_grid.reshape((len(X_grid),1)) #dar una nueva forma a la matriz de datos
 plt.scatter(X_test,y_test)
-plt.plot(X_grid,bar.predict(X_grid),color='red',linewidth=3)
+plt.plot(X_grid,bar.predict(X_grid),color='red')
 plt.show()
 
 print()

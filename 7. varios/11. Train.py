@@ -7,7 +7,7 @@ Created on Thu Mar 19 23:12:56 2020
 import pandas as pd
 import numpy as np
 
-df = pd.read_csv('train.csv') #Importar datos
+df = pd.read_csv('../assets/docs/train.csv') #Importar datos
 
 print(df)
 

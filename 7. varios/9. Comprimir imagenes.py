@@ -8,8 +8,8 @@ from PIL import Image
 
 import os 
 
-downloadsFolder = "/Users/devma/Downloads/"
-picturesFolder = "/Users/devma/Downloads/Pictures/"
+downloadsFolder = "/Users/HP/Downloads/"
+picturesFolder = "/Users/HP/Downloads/imgs/"
 
 if __name__ == "__main__":
     for filename in os.listdir(downloadsFolder):
@@ -22,10 +22,10 @@ if __name__ == "__main__":
             print(name+": "+extension)
         
         if extension in [".mp3"]:
-            musicFolder = "/Users/devma/Downloads/Music/"
+            musicFolder = "/Users/HP/Downloads/Music/"
             os.rename(downloadsFolder+filename,musicFolder+filename)
             
         if extension in [".rar",".zip"]:
-            compressedFolder = "/Users/devma/Downloads/Compressed/"
+            compressedFolder = "/Users/HP/Downloads/Compressed/"
             os.rename(downloadsFolder+filename,compressedFolder+filename)
            

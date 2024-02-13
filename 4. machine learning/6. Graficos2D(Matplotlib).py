@@ -12,7 +12,7 @@ import matplotlib.pyplot as plt
 a = [1,2,3,4]
 b = [11,22,33,44]
 
-plt.plot(a,b,color="blue",lineWidth=3,label="Línea")
+plt.plot(a,b,color="blue",label="Línea")
 plt.legend()
 plt.show()
 
@@ -22,8 +22,8 @@ y1 = [5,6,3,4]
 x2 = [2,5,8]
 y2 = [3,4,3]
 #Configurar las características del gráfico
-plt.plot(x1,y1,label="Línea 1",lineWidth=4,color="blue")
-plt.plot(x2,y2,label="Línea 2",lineWidth=4,color="green")
+plt.plot(x1,y1,label="Línea 1",color="blue")
+plt.plot(x2,y2,label="Línea 2",color="green")
 #Definir título y nombres de ejes
 plt.title("Diagrama de Líneas")
 plt.ylabel("Eje Y")
@@ -40,8 +40,8 @@ y1 = [10,55,80,32,40]
 x2 = [0.75,1.75,2.75,3.75,4.75]
 y2 = [42,26,10,29,66]
 #Configurar las características del gráfico
-plt.bar(x1,y1,label="Datos 1",lineWidth=0.5,color="lightblue")
-plt.bar(x2,y2,label="Datos 2",lineWidth=0.5,color="orange")
+plt.bar(x1,y1,label="Datos 1",color="lightblue")
+plt.bar(x2,y2,label="Datos 2",color="orange")
 #Definir título y nombres de ejes
 plt.title("Gráfico de barras")
 plt.ylabel("Eje Y")
@@ -71,8 +71,8 @@ y1 = [10,55,80,32,40]
 x2 = [0.75,1.75,2.75,3.75,4.75]
 y2 = [42,26,10,29,66]
 #Configurar las características del gráfico
-plt.scatter(x1,y1,label="Datos 1",lineWidth=0.5,color="red")
-plt.scatter(x2,y2,label="Datos 2",lineWidth=0.5,color="purple")
+plt.scatter(x1,y1,label="Datos 1",color="red")
+plt.scatter(x2,y2,label="Datos 2",color="purple")
 #Definir título y nombres de ejes
 plt.title("Gráfico de dispersión")
 plt.ylabel("Eje Y")

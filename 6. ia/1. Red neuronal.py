@@ -139,6 +139,6 @@ y = historic_pct
 p = figure(
         title = "Porcentaje de aprendizaje en cada iteracion",
         x_axis_label = "Iter",y_axis_label = "%",width = 900)
-p.line(x,y,legend=None,line_width=1)
+p.line(x,y,line_width=1)
 show(p)
     
