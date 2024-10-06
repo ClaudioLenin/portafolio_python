@@ -16,7 +16,7 @@ iris = load_iris()
 x = iris.data #array of the data
 y = iris.target #array of labels (i.e answers) of each data entry
 
-#getting label names i.e the three flower speciesrr
+#getting label names i.e the three flower species
 y_names = iris.target_names
 
 #taking random indices to split the dataset into train and test

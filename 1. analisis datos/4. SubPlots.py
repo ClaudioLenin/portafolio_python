@@ -15,6 +15,6 @@ for color in ["red","green","blue"]:
     scale = 200.0 * rand(n)
     ax.scatter(x,y,c=color,s=scale,label=color,alpha=0.3,edgecolors='none')
     
-    ax.legend()
-    ax.grid(True)
-    plt.show()
+ax.legend()
+ax.grid(True)
+plt.show()
